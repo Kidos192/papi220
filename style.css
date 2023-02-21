@@ -98,6 +98,7 @@ form .gender-details .category .dot{
   border-radius: 50%;
   margin-right: 10px;
   border: 5px solid transparent;
+  transition: all 0.3s ease;
 }
  #dot-1:checked ~ .category label .one,
  #dot-2:checked ~ .category label .two,
@@ -108,4 +109,26 @@ form .gender-details .category .dot{
 
  form input[type="radio"]{
   display: none;
+ }
+
+ form .button{
+  height: 45px;
+  margin: 45px 0;
+ }
+
+ form .button input{
+  height: 100%;
+  width: 100%;
+  outline: none;
+  color: #fff;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  background: linear-gradient(135deg, #9e71e6, #6cb659);
+ }
+
+ form .button input:hover{
+  background: linear-gradient(-135deg, #9e71e6, #6cb659);
  }
