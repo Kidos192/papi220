@@ -132,3 +132,23 @@ form .gender-details .category .dot{
  form .button input:hover{
   background: linear-gradient(-135deg, #9e71e6, #6cb659);
  }
+
+ @media (max-width: 584px) {
+    .container{
+      max-width: 100%;
+    }
+    form .user-details .input-box{
+      margin-bottom: 15px;
+      width: 100%;
+    }
+    form .gender-details .category{
+      width: 100%;
+    }
+    .container form .user-details{
+      max-height: 300px;
+      overflow-y: scroll;
+    }
+    .user-details::-webkit-scrollbar{
+      width: 0;
+    }
+ }
