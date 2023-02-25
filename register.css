@@ -133,6 +133,10 @@ form .gender-details .category .dot{
   background: #6cb659;
  }
 
+.foot{
+  text-align: center;
+}
+
  @media (max-width: 584px) {
     .container{
       max-width: 100%;
